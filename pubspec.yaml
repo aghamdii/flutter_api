@@ -13,6 +13,16 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  # Cache images locally
+  cached_network_image: ^3.2.0
+  # Deals with http requets
+  dio: ^4.0.4
+  # Show toaster (error messages)
+  fluttertoast: ^8.0.8
+  # BLoC package for state management
+  flutter_bloc: ^8.0.1
+  # Cache objects locally
+  hive: ^2.0.5
 
 dev_dependencies:
   flutter_test:
