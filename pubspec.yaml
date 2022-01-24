@@ -11,18 +11,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
   cupertino_icons: ^1.0.2
-  # Cache images locally
-  cached_network_image: ^3.2.0
   # Deals with http requets
-  dio: ^4.0.4
-  # Show toaster (error messages)
-  fluttertoast: ^8.0.8
+  http: ^0.13.4
   # BLoC package for state management
   flutter_bloc: ^8.0.1
-  # Cache objects locally
-  hive: ^2.0.5
+  # Used for localization
+  easy_localization: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -33,8 +31,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/lang/
   #   - images/a_dot_ham.jpeg
 
   # fonts:
